@@ -19,5 +19,8 @@ export class DisplayphotoComponent implements OnInit {
      console.log(this.photoUrl);
     });
   }
+  onClick(){
+    this.getImages();
+  }
 
 }
